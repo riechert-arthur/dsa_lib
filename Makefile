@@ -3,7 +3,7 @@ CC = gcc
 
 CFLAGS = -Wall -g -Iinclude -Itest_include
 
-TARGET = run
+TARGET = main 
 
 SRC_DIRS = src tests
 

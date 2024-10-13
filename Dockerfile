@@ -7,6 +7,7 @@ RUN pacman -Syu --noconfirm && \
     base-devel \
     gcc \
     gdb \
+    valgrind \
     && pacman -Scc --noconfirm
 
 WORKDIR /workspace
